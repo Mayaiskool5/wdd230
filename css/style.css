@@ -52,6 +52,9 @@ header, footer {
     background-color: var(--purple);
     color: #fff;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
 }
 
 header img {
@@ -66,3 +69,8 @@ footer {
     font-size: 0.8rem;
 }
 
+
+header, main, footer {
+    max-width: 500px;
+    margin: 0 auto;
+}
