@@ -8,4 +8,14 @@
         font-size: 1.5rem;
     }
 
+    header, footer {
+        border-radius: 10xp;
+    }
+
+    header img {
+        box-shadow: 0 0 30px #444;
+        float: right;
+        border-radius: 0 10px 0 0;
+    }
+
 }
