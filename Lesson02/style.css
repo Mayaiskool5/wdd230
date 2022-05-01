@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
 
     header {
-        background-color: #F4B41A;
+        background-color: #813e96;
         text-align: center;
         border-radius: 30px 30px 30px 30px;
     }
     
     a {
-       color: #2EEFAF;  
+       color: #a01a1a;  
     }
-    
+
     main {
         max-width: 767px;
         margin: 0 auto;
@@ -19,8 +19,8 @@
     }
     
     body {
-        font-family: "Source Serif 4", "Roboto";
-        background-color: #0A2C48;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #be8ad3;
     }
     
     p {
@@ -28,7 +28,7 @@
         border-radius: 30px 30px 100px 0px;
         padding: 1em;
         font-size: large;
-        font-family: "Source Serif 4", "Roboto";
+        font-family: 'Josefin Sans', sans-serif;
         text-align: center;
     }
     
@@ -41,8 +41,8 @@
     }
     
     h2 {
-        background-color: #2D3047;
-        color: #F4B41A;
+        background-color: #000000;
+        color: #813e96;
         line-height: 50px;
         margin-top: 30px;
         margin-bottom: -30px; 
@@ -58,8 +58,8 @@
     
     h3 {
         border-bottom: 5px double;
-        background-color: #2D3047;
-        color: #F4B41A;
+        background-color: #000000;
+        color: #813e96;
         padding: 0.5em;
         text-align: center;
         margin-bottom: -1px; 
