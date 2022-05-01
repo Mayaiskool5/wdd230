@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+4&display=swap');
+
+    header {
+        background-color: #F4B41A;
+        text-align: center;
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    a {
+       color: #2EEFAF;  
+    }
+
+    main {
+        max-width: 767px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+    }
+    
+    body {
+        font-family: "Source Serif 4", "Roboto";
+        background-color: #0A2C48;
+    }
+    
+    p {
+        background-color: white;
+        border-radius: 30px 30px 100px 0px;
+        padding: 1em;
+        font-size: large;
+        font-family: "Source Serif 4", "Roboto";
+        text-align: center;
+    }
+    
+    .scrolling-preview {
+        overflow-y: scroll;
+        height: 525px;
+        max-width: fit-content;
+        align-items: center;
+        border-radius: 0px 0px 0px 100px;
+    }
+    
+    h2 {
+        background-color: #2D3047;
+        color: #F4B41A;
+        line-height: 50px;
+        margin-top: 30px;
+        margin-bottom: -30px; 
+        font-size: 2.7em;
+        text-align: center;
+        border-radius: 30px 30px 0px 0px;
+    }
+    
+    h2 {
+        border-top: 5px double;
+        padding: 0.5em;
+    }
+    
+    h3 {
+        border-bottom: 5px double;
+        background-color: #2D3047;
+        color: #F4B41A;
+        padding: 0.5em;
+        text-align: center;
+        margin-bottom: -1px; 
+    }
+    
+    footer p{
+        border-radius: 30px 30px 30px 30px;
+    }
+    
+    @media only screen and (min-width: 37.5em) {
+        main {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1em;
+        }
+    
+        main section:nth-child(2) {
+            display: block;
+        }
+    
+        main section:nth-child(3) {
+            grid-column: span 2;
+        }
+    }
+    
+    @media only screen and (min-width: 60em) {
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 0 auto;
+            grid-gap: 1em;
+            max-width: 900px;
+        }
+        main section:nth-child(3) {
+            grid-column: span 1;
+        }
+    }
