@@ -29,6 +29,7 @@ body {
 header {
   align-items: center;
   display: grid;
+  
 }
 nav ul {
   list-style: none;
