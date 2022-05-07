@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Raleway:wght@200&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  background-color: #fdf0ba;
+  padding: 0.5em;
+}
+
+.town {
+    margin-bottom: -55px;
+}
+
+img {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 175px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  align-items: center;
+  display: grid;
+}
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+}
+nav a:hover {
+  color: black;
+}
+nav {
+  color: #290036;
+  padding: 5px;
+  line-height: 25px;
+}
+main {
+  background-color: white;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+body {
+  background-color: #be8ad3;
+  padding: 10px;
+}
