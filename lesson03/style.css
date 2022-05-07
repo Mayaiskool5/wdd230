@@ -12,7 +12,7 @@ h6 {
 }
 
 .town {
-    margin-bottom: -55px;
+    margin-bottom: -45px;
 }
 
 img {
@@ -20,6 +20,8 @@ img {
     grid-column: 1;
     grid-row: 2;
     margin-left: 200px;
+    max-width: 100%;
+    margin-top: 10px;
 }
 
 body {
@@ -29,6 +31,7 @@ body {
 header {
   align-items: center;
   display: grid;
+  margin-top: -10px;
   
 }
 nav ul {
@@ -42,16 +45,12 @@ nav a:hover {
 }
 nav {
   color: #290036;
-  padding: 5px;
+  padding: 20px;
   line-height: 25px;
 }
 main {
   background-color: white;
   padding: 5px;
-}
-img {
-  max-width: 100%;
-  margin-top: 10px;
 }
 body {
   background-color: #be8ad3;
