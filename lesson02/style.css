@@ -10,6 +10,13 @@
        color: #a01a1a;  
     }
 
+    .year {
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0.75rem;
+        background-color: #eee;
+    }
+
     main {
         max-width: 767px;
         margin: 0 auto;
