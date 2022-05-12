@@ -18,6 +18,13 @@ h1 {
   margin-top: -5px;
 }
 
+.year {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+}
+
 .town {
     margin-bottom: -20px;
 }
