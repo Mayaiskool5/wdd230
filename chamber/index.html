@@ -7,15 +7,16 @@
         
         <title>WDD230 Assignment Portal</title>
 
-        <link rel="stylesheet" type="text/css" href="./css/main.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="stylesheet" type="text/css" href="./css/medium.css" />
+        <link rel="stylesheet" type="text/css" href="./css/large.css" />
 
-        <script src="js/script.js" defer></script>
     </head>
 
     <body>
@@ -23,9 +24,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href=".html">C</a></li>
-                <li><a href=".html">T</a></li>
-                <li><a href=".html">T</a></li>
+                <li><a href=".html">Discover</a></li>
+                <li><a href=".html">Directory</a></li>
+                <li><a href=".html">Join/Contact</a></li>
               </ul>
     
            <form>
@@ -35,8 +36,11 @@
          </nav>
 
          <header>
+            <img src="../images/logo.jpg" alt="website-logo" width="200">
             <h1 class="town">Madison</h1>
             <h1>Chamber of Commerce</h1>
+            <p><span id="date()"></span></p>
+            <script src="js/main.js"></script>
           </header>
 
         <main>
@@ -49,9 +53,9 @@
         </main>
     
         <footer>
-            <p> &copy; <span id = "year"></span><span id="lastUpdate"></span></p>
+            <p>&copy; <span id="year"></span><span id="lastUpdate"></span></p>
+            </footer>
             <script src="js/main.js"></script>
-          </footer>
           
       </body>
     </html>
