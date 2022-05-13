@@ -1,15 +1,5 @@
-header {
-    grid: flex;
-}
-
-.year {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem;
-	background-color: #eee;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Charm&family=Raleway:wght@200&display=swap');
+
 
 h1,
 h2,
@@ -29,9 +19,20 @@ h1 {
   margin-top: -5px;
 }
 
-.town {
-    margin-bottom: -20px;
+.year {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+    grid: flex;
+    text-align: center;
 }
+
+.town {
+    margin-bottom: -10px;
+}
+
+
 
 img {
     margin-left: 0px;
@@ -43,6 +44,7 @@ body {
   background-color: white;
   font-family: 'Raleway', sans-serif;
 }
+
 header {
   align-items: center;
   display: grid;
@@ -57,18 +59,22 @@ nav ul {
   margin: 0;
   margin-left: -80px;
 }
+
 nav a:hover {
   color: black;
 }
+
 nav {
   color: #73628A;
   padding: 20px;
   line-height: 25px;
 }
+
 main {
   background-color: white;
   padding: 5px;
 }
+
 body {
   background-color: #F9F9ED;
   padding: 10px;
