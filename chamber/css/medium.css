@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm&family=Raleway:wght@200&display=swap');
 
 @media only screen and (min-width: 37.5em) {
-    /* Header */
-
+    
     .header-container {
         font-size: .8em ;
     }
@@ -20,6 +19,12 @@
         font-size: 1.4em ;
         margin: 0 ;
     }
+
+    .social {
+        margin-left: 1300px;
+        margin-top: -185px;
+    
+      }
 
     main div, article {
         margin: .5em ;

@@ -53,14 +53,13 @@ header {
   flex-direction: column ;
   color: #FFF ;
   background-color: #6E75A8 ;
-  justify-content: center ;
+  justify-content: right ;
   
 }
 
 .social {
-	margin-left: 750px;
-	margin-top: -85px;
-
+	margin-left: 1300px;
+        margin-top: -185px;
   }
 
 nav ul {
@@ -70,9 +69,11 @@ nav ul {
 	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 	margin: 30px;
   }
+  
 nav a:hover {
 	color: #A57F60;
   }
+
 nav a {
 	color: #73628A;
 	padding: 10px;
@@ -90,7 +91,8 @@ form {
 }
 
 .current-date {
-	display: flex;
+	display: flex ;
+	flex-direction: row ;
 	text-align: center ;
 	font-size: .8em ;
 	background-color: #D9DBF1 ;

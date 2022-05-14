@@ -10,13 +10,13 @@
         font-size: 1em ;
     }
 
+    .social {
+        order: 3;
+    }
+
     .social svg {
         width: 35px;
         height: auto;
-    }
-
-    .social {
-        order: 3 ;
     }
 
     nav ul {
@@ -110,8 +110,8 @@
     }
 
     .social {
-        margin-left: 750px;
-        margin-top: -85px;
+        margin-left: 1300px;
+        margin-top: -185px;
       }
 
 }
