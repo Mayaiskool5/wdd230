@@ -1,10 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Raleway:wght@200&display=swap');
 
 
 
 
 @media only screen and (min-width: 60em) {
-    /* Header */
 
     .header-container {
         font-size: 1em ;
@@ -37,8 +36,6 @@
     nav button {
         display: none ;
     }
-
-    /* Main */
 
     main {
         display: grid ;
@@ -95,8 +92,6 @@
         margin: 0 ;
     }
 
-    /* Footer */
-
     footer {
         font-size: .7em ;
     }
@@ -129,9 +124,9 @@
         grid-row: 2/3 ;
     }
 
-}
+    .social {
+        margin-left: 750px;
+        margin-top: -85px;
+      }
 
-.social {
-    margin-left: 750px;
-    margin-top: -85px;
-  }
+}

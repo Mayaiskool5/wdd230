@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Raleway:wght@200&display=swap');
+
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: 'Charm', cursive;
+  background-color: #D9DBF1;
+  padding: 0.5em;
+}
+
+h3 {
+  font-family: 'Charm', cursive;
+}
+
+h1 {
+  margin-top: -5px;
+}
+
+.year {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+    grid: flex;
+    text-align: center;
+}
+
+.town {
+    margin-bottom: -10px;
+}
+
+img {
+    margin-left: 0px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F9F9ED;
+  padding: 10px;
+}
+
+header {
+  align-items: left;
+  display: grid;
+  margin-top: 10px;
+  display: flex ;
+  flex-direction: column ;
+  color: #FFF ;
+  background-color: #6E75A8 ;
+  justify-content: center ;
+  
+}
+
+.social {
+	margin-left: 750px;
+	margin-top: -85px;
+
+  }
+
+nav ul {
+	font-family: 'Raleway', sans-serif;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+	margin: 30px;
+  }
+nav a:hover {
+	color: #A57F60;
+  }
+nav a {
+	color: #73628A;
+	padding: 10px;
+  }
+
+main {
+  background-color: white;
+  padding: 5px;
+}
+
+form {
+  text-align: right;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.current-date {
+	display: flex;
+	text-align: center ;
+	font-size: .8em ;
+	background-color: #D9DBF1 ;
+	padding: .4em ;
+	margin: .8em ;
+}
+
+main div, article {
+	font-size: .8rem ;
+    color: #A57F60;
+    background-color: #F9F9ED ;
+	border: 1px solid #a5a5a5 ;
+	text-align: left ;
+	margin: 1em ;
+	padding: 1em ;
+	width: auto ;
+	height: 200px ;
+}
+
+.join {
+	display: none ;
+}
+
+.spotlight {
+	display: flex ;
+	flex-direction: column ;
+	padding: 1em ;
+}
+
+#spot3 {
+	display: none ;
+}
+
+.spot {
+	background-color: #F9F9ED ;
+	border: 1px solid #a5a5a5 ;
+	width: auto ;
+	height: 150px ;
+	padding: 1em ;
+}
+
+footer {
+	display: flex ;
+	flex-direction: column ;
+	color: #A57F60 ;
+	background-color: #D9DBF1 ;
+	text-align: center ;
+	font-size: .6em ;
+}
+
+.down-footer {
+	font-size: 1.4em ;
+	display: block ;
+	margin: .3em ;
+}
+
+hr {
+	border: none ;
+	height: 2px ;
+	background: #e4e4e4 ;
+	width: 100% ;
+}
+
+.down-footer p {
+	margin: .2em ;
+}
