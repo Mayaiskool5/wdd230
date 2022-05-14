@@ -1,6 +1,3 @@
-
-// Dates
-
 const days = [
     "Sunday",
     "Monday",
