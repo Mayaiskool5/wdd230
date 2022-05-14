@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm&family=Raleway:wght@200&display=swap');
 
 @media only screen and (min-width: 37.5em) {
-    
+
     .header-container {
         font-size: .8em ;
     }
@@ -20,9 +20,18 @@
         margin: 0 ;
     }
 
+    nav ul {
+        font-family: 'Raleway', sans-serif;
+        align-items: center;
+	    list-style: none ;
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+	    margin: 30px;
+    }
+
     .social {
         margin-left: 1300px;
-        margin-top: -185px;
+        margin-top: -150px;
     
       }
 

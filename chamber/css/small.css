@@ -59,17 +59,18 @@ header {
 
 .social {
 	margin-left: 1300px;
-        margin-top: -185px;
+    margin-top: -150px;
   }
 
 nav ul {
 	font-family: 'Raleway', sans-serif;
-	list-style: none;
+	list-style: none ;
+	align-items: center;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 	margin: 30px;
   }
-  
+
 nav a:hover {
 	color: #A57F60;
   }

@@ -20,8 +20,7 @@
     }
 
     nav ul {
-        order: 2 ;
-        display: flex ;
+        align-items: center;
         list-style: none ;
         font-size: 1.3rem ;
     }
@@ -111,7 +110,7 @@
 
     .social {
         margin-left: 1300px;
-        margin-top: -185px;
+        margin-top: -150px;
       }
 
 }
