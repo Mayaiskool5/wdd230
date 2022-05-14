@@ -16,6 +16,7 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css" />
         <link rel="stylesheet" type="text/css" href="./css/medium.css" />
         <link rel="stylesheet" type="text/css" href="./css/large.css" />
+        <link rel="stylesheet" href="./images">
 
     </head>
 
@@ -41,22 +42,63 @@
             <h1>Chamber of Commerce</h1>
             <p><span id="date()"></span></p>
             <script src="js/main.js"></script>
+
+            <div class="social">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  src="../images/facebook.jpg"
+                  alt="Facebook"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img
+                  src="../images/youtube.jpg"
+                  alt="Youtube"
+              /></a>
+
+              <div class="current-date">
+                <span id="date"></span>
+              </div>
+
           </header>
 
-        <main>
-    
-          <article>
-            <!--main content here-->
-    
-          </article>
-
-        </main>
+          <main>
+            <div class="hero">
+                Hero with site name and call to action
+            </div>
+            <div class="event">
+                Event
+            </div>
+            <div class="weather">
+                Weather
+            </div>
+            <div class="join">
+                Join
+            </div>
+            <article class="news-release">
+                News Release
+            </article>
+            <div class="spotlight">
+                <section class="spot">
+                    Spotlight 1
+                </section>
+                <section class="spot">
+                    Spotlight 2
+                </section>
+                <section class="spot" id="spot3">
+                    Spotlight 3
+                </section>
+            </div>
+          </main>
     
         <footer>
-            <p>&copy; <span id="year"></span><span id="lastUpdate"></span></p>
+          <div class="down-footer">
+            <p id="copyright">&copy;<span id="year"></span> Madison Chamnber of Commerce</p>
+            <p id="name"><b>Mariah Wedel</b></p>
+            <p id="class-name">WDD 230 Project</p>
+            <p id="update">Last Updated: <span id="lastupdate"></span></p>
+          </div>
             </footer>
             <script src="js/main.js"></script>
           
       </body>
     </html>
-    

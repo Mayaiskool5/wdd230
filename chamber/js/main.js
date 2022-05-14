@@ -1,16 +1,39 @@
-function date() {
-    const datefield = document.querySelector("#year");
 
-    const now = new Date();
-    const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
-    
-    datefield.innerHTML = `<em>${fulldate}</em>`; 
-}
+// Dates
 
-function mod() {
+const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+] ;
 
-    document.querySelector('#year').innerHTML = (new Date().getFullYear());
-    
-    document.querySelector('#lastUpdate').innerHTML = ` - Mariah Wedel - Idaho - Last Updated: ${document.lastModified}`;
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+] ;
 
-}
+let currentDate = new Date() ;
+let lastModification = document.lastModified ;
+let day = currentDate.getDay() ;
+let dayName = days[ day ] ;
+let month = months[ currentDate.getMonth() ] ;
+let year = currentDate.getFullYear() ;
+
+document.getElementById( "lastupdate" ).textContent = lastModification ;
+document.getElementById( "year" ).textContent = year ;
+document.getElementById( "date" ).textContent = `${dayName}, ${day} ${month} ${year}`
