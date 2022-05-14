@@ -34,3 +34,4 @@ let year = currentDate.getFullYear() ;
 document.getElementById( "lastupdate" ).textContent = lastModification ;
 document.getElementById( "year" ).textContent = year ;
 document.getElementById( "date" ).textContent = `${dayName}, ${day} ${month} ${year}`
+

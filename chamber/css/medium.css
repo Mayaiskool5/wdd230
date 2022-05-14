@@ -7,12 +7,18 @@
     }
 
     header img {
-        width: 80px ;
+        width: 200px ;
+        height: auto;
     }
 
     .current-date {
         font-size: .8em ;
         padding: .6em ;
+        display: flex ;
+	    flex-direction: row ;
+	    text-align: center ;
+	    background-color: #D9DBF1 ;
+	    margin: .8em ;
     }
 
     nav ul.open {
@@ -28,12 +34,6 @@
 	    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 	    margin: 30px;
     }
-
-    .social {
-        margin-left: 1300px;
-        margin-top: -150px;
-    
-      }
 
     main div, article {
         margin: .5em ;

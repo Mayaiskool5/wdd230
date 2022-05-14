@@ -13,16 +13,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="./css/small.css" />
-        <link rel="stylesheet" type="text/css" href="./css/medium.css" />
-        <link rel="stylesheet" type="text/css" href="./css/large.css" />
-        <link rel="stylesheet" href="./images">
+        <link rel="stylesheet" href="./css/small.css" />
+        <link rel="stylesheet" href="./css/medium.css" />
+        <link rel="stylesheet" href="./css/large.css" />
+        <link rel="stylesheet" href="./images/logo.jpg">
 
     </head>
 
     <body>
     
         <nav>
+          <!--Put hamburger button here.-->
             <ul>
                 <li><a href="index.html"><b>Home</b></a></li>
                 <li><a href=".html"><b>Discover</b></a></li>
@@ -37,24 +38,22 @@
          </nav>
 
          <header>
-            <img src="../images/logo.jpg" alt="website-logo" width="200">
+            <img id="logo" src="../images/logo.jpg" alt="website-logo" width="200">
             <h1 class="town">Madison</h1>
             <h1>Chamber of Commerce</h1>
-            <p><span id="date()"></span></p>
-            <script src="js/main.js"></script>
 
             <div class="social">
               <a href="https://www.facebook.com/" target="_blank"
-                ><img
+                ><img class="socialmedia"
                   src="../images/facebook.jpg"
                   alt="Facebook"
               /></a>
               <a href="https://www.youtube.com/" target="_blank"
-                ><img
+                ><img class="socialmedia"
                   src="../images/youtube.jpg"
                   alt="Youtube"
               /></a>
-
+              </div>
               <div class="current-date">
                 <span id="date"></span>
               </div>
@@ -99,6 +98,8 @@
           </div>
             </footer>
             <script src="js/main.js"></script>
-          
+          <!--Put hamburger button js here-->
       </body>
     </html>
+
+    <!--Hamburger should make nav disappear is small and medium view and have the hamburger button-->
