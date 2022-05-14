@@ -47,6 +47,7 @@
 
     .hero {
         grid-column: 1/4 ;
+        margin-top: 30px;
     }
 
     .news-release {
