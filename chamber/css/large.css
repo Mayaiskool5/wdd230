@@ -27,8 +27,12 @@
 
     nav ul {
         align-items: center;
-        list-style: none ;
         font-size: 1.3rem ;
+        font-family: 'Raleway', sans-serif;
+	    list-style: none ;
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+	    margin: 30px;
     }
 
     nav button {

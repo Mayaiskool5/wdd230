@@ -71,22 +71,40 @@ header {
 	width: 40px;
   }
 
+nav button {
+	margin: .2rem 2vw;
+}
+
+nav {
+	background-color: #eee;
+	background: transparent;
+	border: none;
+	font-size: 2rem;
+	color: #555;
+}
+
 nav ul {
-	font-family: 'Raleway', sans-serif;
-	list-style: none ;
-	align-items: center;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-	margin: 30px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
   }
 
-nav a:hover {
-	color: #A57F60;
-  }
+nav ul li a {
+	display: block;
+	padding: .8rem 2vw;
+	text-decoration: none;
+	color: #333;
+	border-top: 1px solid rgba(0,0,0,0.5);
+}
 
-nav a {
+nav ul li.active a {
+	background-color: rgba(0,0,0,0.2);
 	color: #73628A;
-	padding: 10px;
+}
+
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.3);
+	color: #A57F60;
   }
 
 main {
