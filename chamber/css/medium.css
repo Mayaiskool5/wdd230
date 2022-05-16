@@ -21,18 +21,25 @@
 	    margin: .8em ;
     }
 
-    nav ul.open {
-        font-size: 1.4em ;
-        margin: 0 ;
+    nav button {
+        display: none;
     }
 
     nav ul {
-        font-family: 'Raleway', sans-serif;
-        align-items: center;
-	    list-style: none ;
-	    display: grid;
-	    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-	    margin: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+
+    nav ul.open {
+        font-size: 1.4em ;
+        margin: 0 ;
     }
 
     main div, article {
