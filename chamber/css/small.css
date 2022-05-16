@@ -79,15 +79,20 @@ nav {
 	background-color: #eee;
 	background: transparent;
 	border: none;
-	font-size: 2rem;
+	font-size: 0.9rem;
 	color: #555;
 }
 
 nav ul {
+	display: none;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
   }
+
+nav ul.open {
+	display: block;
+}
 
 nav ul li a {
 	display: block;
@@ -106,6 +111,22 @@ nav ul li a:hover {
 	background-color: rgba(0,0,0,0.3);
 	color: #A57F60;
   }
+
+#hamburgerBtn span:nth-child(1) {
+	display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+	display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+	display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+	display: block;
+}
 
 main {
   background-color: white;

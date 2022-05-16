@@ -25,7 +25,7 @@
         display: none;
     }
 
-    nav ul {
+    nav ul#primaryNav {
         display: flex;
         justify-content: center;
         margin-left: 2vw;
