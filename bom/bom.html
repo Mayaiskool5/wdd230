@@ -15,39 +15,26 @@
         <link rel="shortcut icon" href="../favicon.ico">
     </head>
 
-        <main>
-	        <div class="input">
-		        <label>Enter Book and Chapter<br>
-			        <input type="text" id="favchap" placeholder="Alma 5" required></label>
-
-		        <button type="submit">Add Chapter</button>
-	        </div>
-	        <div class="listcontainer">
-		        <ul class="list">
-		        </ul>
-	        </div>
-        </main>
-
         <body>
             <header>
-                <h1>📘 Book of Mormon - Top 25</h1>
-                <form id="new-chapter-form">
-                    <input type="text" id="new-chapter-input" name="new-chapter-input" placeholder=" Ex. Jacob 7 " />
-                    <input type="submit" id="new-chapter-submit" value="new chapter " />
+                <h1>Book of Mormon ~ Favorite Chapters</h1>
+                <form id="new-chapter">
+                    <input type="text" id="favChap-input" placeholder=" Ex. Jacob 7 " />
+                    <input type="submit" id="favChap-submit" value="New Chapter " />
                 </form>
             </header>
             <main>
                 <section class="listcontainer">
                     <h2>Chapters</h2>
                     <div id="chapters">
-                        <!-- <div class="chapter ">
+                        <div class="chapter ">
                             <div class="content ">
-                                <input type="text " class="text " value="my favorite chapter " readonly/>
+                                <input type="text " class="text " value="My favorite chapters " readonly/>
                             </div>
                             <div class="actions ">
                                 <button class="edit ">Edit</button>
                                 <button class="delete ">Delete</button> </div>
-                        </div> -->
+                        </div>
                     </div>
                 </section>
             </main>
