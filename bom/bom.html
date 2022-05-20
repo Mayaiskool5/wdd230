@@ -3,9 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Book of Mormon Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Assignment portal for Mariah Wedel in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="./bom.css" />
+        <link rel="shortcut icon" href="../favicon.ico">
     </head>
 
-        <h1>📘 Book of Mormon - Top 25</h1>
         <main>
 	        <div class="input">
 		        <label>Enter Book and Chapter<br>
@@ -18,51 +27,30 @@
 		        </ul>
 	        </div>
         </main>
-</html>
 
-<!DOCTYPE html>
-<html lang="en">
-​
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="DOM Manipulation for Nikkolet Ashby in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <title>DOM Manipulation</title>
-    <link rel="stylesheet" href="css/small.css " />
-    <link rel="stylesheet " href="css/normalize.css ">
-    <link rel="stylesheet " href="css/medium.css ">
-    <link rel="stylesheet " href="css/large.css ">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images\8324187_ui_essential_app_book_icon_SfC_icon.ico ">
-</head>
-​
-<body>
-    <header>
-        <h1>📘 Book of Mormon - Top 25</h1>
-        <form id="new-chapter-form">
-            <input type="text" id="new-chapter-input" name="new-chapter-input" placeholder=" Ex. Alma 5 " />
-            <input type="submit" id="new-chapter-submit" value="new chapter " />
-        </form>
-    </header>
-    <main>
-        <section class="listcontainer">
-            <h2>Chapters</h2>
-            <div id="chapters">
-                <!-- <div class="chapter ">
-                    <div class="content ">
-                        <input type="text " class="text " value="my favorite chapter " readonly/>
+        <body>
+            <header>
+                <h1>📘 Book of Mormon - Top 25</h1>
+                <form id="new-chapter-form">
+                    <input type="text" id="new-chapter-input" name="new-chapter-input" placeholder=" Ex. Jacob 7 " />
+                    <input type="submit" id="new-chapter-submit" value="new chapter " />
+                </form>
+            </header>
+            <main>
+                <section class="listcontainer">
+                    <h2>Chapters</h2>
+                    <div id="chapters">
+                        <!-- <div class="chapter ">
+                            <div class="content ">
+                                <input type="text " class="text " value="my favorite chapter " readonly/>
+                            </div>
+                            <div class="actions ">
+                                <button class="edit ">Edit</button>
+                                <button class="delete ">Delete</button> </div>
+                        </div> -->
                     </div>
-                    <div class="actions ">
-                        <button class="edit ">Edit</button>
-                        <button class="delete ">Delete</button> </div>
-                </div> -->
-            </div>
-        </section>
-    </main>
-    <script src="js\bom.js"></script>
-</body>
-​
+                </section>
+            </main>
+            <script src="js\bom.js"></script>
+        </body>
 </html>
