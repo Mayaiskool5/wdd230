@@ -21,10 +21,10 @@
         display: flex ;
         flex-direction: row ;
         font-size: 1.5em ;
-        color: #A57F60;
-        background-color: #D9DBF1 ;
-        padding: 8px;
+        color: #D9DBF1;
+        padding: 5px;
         margin: .8em ;
+        margin-top: -2px;
     }
 
     .social {
