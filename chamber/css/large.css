@@ -138,8 +138,9 @@
     }
 
     #news-info {
+        margin-top: -10px;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .spotlight {
