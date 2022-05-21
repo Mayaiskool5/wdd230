@@ -11,6 +11,12 @@
         height: auto;
     }
 
+    .social {
+        position: absolute;
+        right: 30px;
+        top: 127px;
+    }
+
     .current-date {
         font-size: .8em ;
         padding: .6em ;
@@ -21,6 +27,17 @@
 	    margin: .8em ;
     }
 
+    #banner {
+        text-align: center;
+        display: flex ;
+        flex-direction: row ;
+        font-size: 1.5em ;
+        color: #A57F60;
+        background-color: #D9DBF1 ;
+        padding: 8px;
+        margin: .8em ;
+    }
+
     nav button {
         display: none;
     }
@@ -28,8 +45,6 @@
     nav ul#primaryNav {
         display: flex;
         justify-content: center;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
     }
 
     nav ul li a {

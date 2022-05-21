@@ -63,8 +63,8 @@ header {
 
 .social {
 	position: absolute;
-	right: 20px;
-	top: 30px;
+	right: 30px;
+	top: 115px;
 }
 
 .socialmedia {
@@ -142,10 +142,26 @@ form {
 .current-date {
 	display: flex ;
 	flex-direction: row ;
-	text-align: center ;
 	font-size: .8em ;
+	color: #A57F60;
 	background-color: #D9DBF1 ;
 	padding: .4em ;
+	margin: .8em ;
+	justify-content: center;
+}
+
+nav ul#primaryNav li:first-child a {
+	border-left: 1px solid rgba(0,0,0,0.3);
+}
+
+#banner {
+	text-align: center;
+	display: flex ;
+	flex-direction: row ;
+	font-size: 1.5em ;
+	color: #A57F60;
+	background-color: #D9DBF1 ;
+	padding: 8px;
 	margin: .8em ;
 }
 

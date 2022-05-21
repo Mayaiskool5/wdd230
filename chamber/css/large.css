@@ -16,8 +16,21 @@
 	    margin: .8em ;
     }
 
+    #banner {
+        justify-content: center;
+        display: flex ;
+        flex-direction: row ;
+        font-size: 1.5em ;
+        color: #A57F60;
+        background-color: #D9DBF1 ;
+        padding: 8px;
+        margin: .8em ;
+    }
+
     .social {
-        order: 3;
+        position: absolute;
+        right: 30px;
+        top: 190px;
     }
 
     .social svg {
