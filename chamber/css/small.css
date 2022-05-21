@@ -181,6 +181,12 @@ main div, article {
 	margin-top: 30px;
 }
 
+.hero-header {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: -2px;
+}
+
 .event:hover {
 	background-color: rgba(0,0,0,0.06);
 	color: #A57F60;
@@ -199,6 +205,18 @@ main div, article {
 
 .join {
 	display: none ;
+}
+
+#news {
+	text-align: center;
+	font-size: 1.3rem;
+	padding: 1px;	
+}
+
+#news-info {
+	text-align: center;
+	font-size: 0.95rem;
+	margin-top: 40px;
 }
 
 .spotlight {

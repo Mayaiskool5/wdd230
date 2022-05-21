@@ -88,9 +88,25 @@
         margin-top: 30px;
     }
 
+    .hero-header {
+        font-size: 1.5rem;
+        margin-top: -2px;
+    }
+
     .news-release {
         grid-column: 1/4 ;
         grid-row: 2/3 ;
+    }
+
+    #news {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1px;
+    }
+
+    #news-info {
+        text-align: center;
+        font-size: 1.1rem;
     }
 
     .spotlight {
@@ -103,6 +119,18 @@
         grid-column: 1/4 ;
         grid-row: 4/5 ;
         display: block ;
+    }
+
+    #join {
+        font-size: 2rem;
+        text-align: center;
+        padding: 2px;
+    }
+
+    #join-info {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 40px;
     }
     
     .event {
