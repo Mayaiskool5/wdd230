@@ -181,6 +181,11 @@ main div, article {
 	margin-top: 30px;
 }
 
+.event:hover {
+	background-color: rgba(0,0,0,0.06);
+	color: #A57F60;
+}
+
 #event-rex {
 	font-size: 1rem;
     text-align: center;
