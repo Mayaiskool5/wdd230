@@ -152,14 +152,42 @@
     }
 
     #slc-pic {
-        height: 50px;
-        width: auto;
-        margin-top: -19px;
+        width: 150px;
+        height: auto;
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;
+        margin-top: 75px;
+        margin-bottom: 10px;
     }
 
     #spot-one-info {
         text-align: center;
         margin-bottom: -2px;
+        font-size: 0.8rem;
+    }
+
+    #spot-two {
+        font-size: 1.15rem;
+        text-align: center;
+        margin-top: -7px;
+        padding: 3px;
+    }
+
+    #spot-two-info {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -2px;
+    }
+
+    #bear-pic {
+        width: 180px;
+        height: auto;
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;
+        margin-top: 55px;
+        margin-bottom: 10px;
     }
 
     footer {
