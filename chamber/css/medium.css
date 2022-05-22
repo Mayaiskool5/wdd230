@@ -144,6 +144,23 @@
         margin: 3px ;
     }
 
+    #spot-one {
+        font-size: 1.15rem;
+        text-align: center;
+        padding: 3px;
+    }
+
+    #slc-pic {
+        height: 50px;
+        width: auto;
+        margin-top: -19px;
+    }
+
+    #spot-one-info {
+        text-align: center;
+        margin-bottom: -2px;
+    }
+
     footer {
         font-size: .6em ;
         display: grid ;

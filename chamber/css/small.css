@@ -237,6 +237,24 @@ main div, article {
 	padding: 1em ;
 }
 
+#spot-one {
+	font-size: 1rem;
+	text-align: center;
+	padding: 3px;
+}
+
+#slc-pic {
+	height: 40px;
+	width: auto;
+	margin-top: -19px;
+}
+
+#spot-one-info {
+	text-align: center;
+	font-size: 0.7rem;
+	margin-bottom: -2px;
+}
+
 footer {
 	display: flex ;
 	flex-direction: column ;
