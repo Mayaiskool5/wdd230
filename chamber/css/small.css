@@ -187,9 +187,14 @@ main div, article {
 	margin-top: -2px;
 }
 
-.event:hover {
-	background-color: rgba(0,0,0,0.06);
-	color: #A57F60;
+#rexburg-pic {
+	height: 220px;
+	width: 385px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -70px;
+	background-image: url(demo.jpg);
 }
 
 #event-rex {
