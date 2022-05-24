@@ -69,11 +69,6 @@
         grid-row: 1/2 ;
     }
 
-    .event:hover {
-        background-color: rgba(0,0,0,0.06);
-	    color: #A57F60;
-    }
-
     #event-rex {
         font-size: 1rem;
         text-align: center;
@@ -128,9 +123,9 @@
     }
 
     #rexburg-pic {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 0 0 0;
         width: 100%;
+        height: auto;
     }
 
     .news-release {

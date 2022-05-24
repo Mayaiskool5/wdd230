@@ -67,11 +67,6 @@
         grid-template-rows: repeat( 5, 1fr ) ;
     }
 
-    .event:hover {
-        background-color: rgba(0,0,0,0.06);
-	    color: #A57F60;
-    }
-
     #event-rex {
         font-size: 1rem;
         text-align: center;
@@ -81,6 +76,20 @@
         font-size: 0.9rem;
         margin-top: -20px;
         text-align: center;
+    }
+
+    #rexburg-pic {
+        margin: 0 0 0 0;
+        margin-top: -20px;
+        width: 100%;
+        height: 85%;
+    }
+
+    #weather {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 2px;
+        margin-top: -8px;
     }
 
     .hero {
