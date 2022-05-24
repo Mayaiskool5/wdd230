@@ -91,6 +91,13 @@
         grid-row: 2/3 ;
     }
 
+    #weather {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 2px;
+        margin-top: -8px;
+    }
+
     .join {
         grid-column: 1/2 ;
         grid-row: 3/4 ;
@@ -155,6 +162,28 @@
         display: block ;
     }
 
+    #spot-three {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 3px;
+        margin-top: -7px;
+    }
+
+    #spot-three-info {
+        text-align: center;
+        margin-bottom: -7px;
+    }
+
+    #airplane {
+        height: 60px;
+        width: auto;
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;
+        margin-top: -18px;
+        margin-bottom: 8px;
+    }
+
     .spot {
         width: auto ;
         height: 100% ;
@@ -165,10 +194,11 @@
         font-size: 1.5rem;
         text-align: center;
         padding: 3px;
+        margin-top: -8px;
     }
 
     #slc-pic {
-        height: 70px;
+        height: 65px;
         width: auto;
         display: block;  
         margin-left: auto;  
@@ -185,6 +215,7 @@
         font-size: 1.5rem;
         text-align: center;
         padding: 3px;
+        margin-top: -8px;
     }
 
     #spot-two-info {
@@ -194,7 +225,7 @@
     }
 
     #bear-pic {
-        width: 300px;
+        width: 235px;
         height: auto;
         display: block;  
         margin-left: auto;  
