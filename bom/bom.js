@@ -7,6 +7,9 @@ window.addEventListener('load', () => {
         e.preventDefault();
 
         const chapter = input.value;
+        if (chapter === "" ) {
+            return;
+        }
 
         const chapter_in = document.createElement('div');
         chapter_in.classList.add('chapter');
