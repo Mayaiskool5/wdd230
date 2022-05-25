@@ -91,8 +91,26 @@
     #weather {
         font-size: 1.3rem;
         text-align: center;
-        padding: 2px;
+        padding: 1px;
         margin-top: -8px;
+    }
+
+    #wind {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    #button {
+        width: 55px;
+        text-align: center;
+    }
+
+    #weather-pic {
+        height: 100px;
+        float:left;
+        margin-top: -18px;
     }
 
     .join {

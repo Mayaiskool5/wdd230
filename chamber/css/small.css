@@ -218,6 +218,26 @@ main div, article {
 	text-align: left;
 }
 
+#wind {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: -7px;
+}
+
+#button {
+	width: 55px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+#weather-pic {
+	height: 120px;
+	float:left;
+	margin-top: -20px;
+}
+
 .join {
 	display: none ;
 }
