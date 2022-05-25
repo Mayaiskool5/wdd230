@@ -77,8 +77,8 @@
     }
 
     #event-info {
-        font-size: 0.8rem;
-        margin-top: -20px;
+        font-size: 0.95rem;
+        margin-top: -15px;
         text-align: center;
     }
 
@@ -180,7 +180,7 @@
         margin-left: auto;  
         margin-right: auto;
         margin-top: -18px;
-        margin-bottom: 8px;
+        margin-bottom: 15px;
     }
 
     .spot {
@@ -202,6 +202,7 @@
         display: block;  
         margin-left: auto;  
         margin-right: auto;
+        margin-bottom: 15px;
     }
 
     #spot-one-info {
