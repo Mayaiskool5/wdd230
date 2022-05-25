@@ -249,7 +249,7 @@ main div, article {
 	background-color: #F9F9ED;
 	border: 1px solid #a5a5a5;
 	width: auto;
-	height: 150px;
+	height: auto;
 	padding: 1rem;
 }
 

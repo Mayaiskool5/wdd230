@@ -98,6 +98,7 @@
     .join {
         grid-column: 1/2 ;
         grid-row: 3/4 ;
+        height: auto;
     }
 
     #join {
@@ -133,6 +134,7 @@
     .news-release {
         grid-column: 2/4 ;
         grid-row: 3/4 ;
+        height: auto;
     }
 
     #news {
