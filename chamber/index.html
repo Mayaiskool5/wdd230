@@ -94,8 +94,15 @@
             <div class="weather">
               <h1 id="weather">Weather</h1>
               <p id="weather-info">
-                High: 57&deg;<br>
-                Wind Speed: 2.5 km/h<br>
+                <form id="wind">
+                <label for="Temp">Average Temperature:
+                  <input id="Temp" type="number" name="Temp">
+                </label>
+                <label for="windSpeed">Wind Speed:
+                  <input id="windSpeed" type="number" name="windSpeed">
+                </label>
+                <input id="button" type="button">Submit</input>
+                </form>
                 Wind Chill: <span id="windChill"></span>&deg;
               </p>
             </div>
