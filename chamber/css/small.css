@@ -174,20 +174,22 @@ main div, article {
 	margin: 1em ;
 	padding: 1em ;
 	width: auto ;
-	height: 200px ;
 }
 
 .hero-header {
-	text-align: center;
 	font-size: 1.5rem;
 	margin-top: -2px;
+    position: absolute;
+}
+
+.hero {
+	padding: 0;
 }
 
 #rexburg-pic {
     margin: 0 0 0 0;
-	margin-top: -20px;
     width: 100%;
-    height: 85%;
+    height: 100%;
 }
 
 #event-rex {
@@ -253,6 +255,7 @@ main div, article {
 .spotlight {
 	display: flex ;
 	flex-direction: column ;
+	height: auto;
 	padding: 1em ;
 }
 
