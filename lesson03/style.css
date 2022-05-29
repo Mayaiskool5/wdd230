@@ -48,10 +48,11 @@ header {
 nav ul {
   text-align: center;
   list-style: none;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
-  margin-left: -80px;
+  margin-left: -50px;
 }
 nav a:hover {
   color: black;
