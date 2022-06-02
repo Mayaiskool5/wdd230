@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Assignment portal for Mariah Wedel in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+        
+        <title>WDD230 Assignment Portal</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="./css/small.css" />
+        <link rel="stylesheet" href="./css/medium.css" />
+        <link rel="stylesheet" href="./css/large.css" />
+        <link rel="stylesheet" href="./images/logo.jpg">
+        <link rel="shortcut icon" href="../favicon.ico">
+
+    </head>
+
+    <body>
+    
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html"><b>Home</b></a></li>
+                <li><a href=".html"><b>Discover</b></a></li>
+                <li><a href=".html"><b>Directory</b></a></li>
+                <li><a href=".html"><b>Join/Contact</b></a></li>
+              </ul>
+    
+           <form>
+             <input type="search" name="q" placeholder="Search">
+             <input type="submit" value="Go!">
+           </form>
+         </nav>
+
+         <header>
+            <img id="logo" src="../images/logo.jpg" alt="website-logo" width="200">
+            <h1 class="town">Madison</h1>
+            <h1>Chamber of Commerce</h1>
+
+            <div class="social">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img class="socialmedia"
+                  src="../images/facebook.jpg"
+                  alt="Facebook"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img class="socialmedia"
+                  src="../images/youtube.jpg"
+                  alt="Youtube"
+              /></a>
+              </div>
+              <div class="current-date">
+                <b><span id="date"></span></b>
+              </div>
+
+              <b><section id="banner"></section></b>
+          </header>
+            
+          <main>
+
+
+
+
+
+
+            
+          </main>
+
+          <footer>
+            <div class="down-footer">
+              <b><p id="copyright">&copy;<span id="year"></span> Madison Chamber of Commerce</b></p>
+              <p id="name"><b>Mariah Wedel</b></p>
+              <p id="class-name"><b>WDD 230 Project</b></p>
+              <p id="update"><b>Last Updated: <span id="lastupdate"></span></p></b>
+            </div>
+              </footer>
+              <script src="js/main.js"></script>
+              <script src="js/hamburger.js"></script>
+              <script src="js/windchill.js"></script>
+        </body>
+      </html>
