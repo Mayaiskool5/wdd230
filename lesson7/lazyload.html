@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Assignment portal for Mariah Wedel in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
-        <title>Lazy Load</title>
-        <link rel="stylesheet" href="css/lazy.css" />
-    </head>
-    <body>
-        <main>
-            <h1>
-                Rexburg, Idaho LDS Temple
-            </h1>
-            <img data-src="rexTemple.jpg" alt="Rexburg Temple" width="300" height="auto">
-            <h1>
-                Farmland
-            </h1>
-            <img data-src="farm.jpg" alt="Farmland" width="400" height="auto">
-            <h1>
-                Brighham Young University Idaho
-            </h1>
-            <img data-src="school.jpg" alt="BYU-School" width="400" height="auto">
-            <h1>
-                Rexburg Water Tower
-            </h1>
-            <img data-src="waterTower.jpg" alt="Water Tower" width="400" height="auto">
-            <h1>
-                Rexburg Tabernacle
-            </h1>
-            <img data-src="rexTab.jpg" alt="Rexburg Tabernacle" width="300" height="auto">
-            <h1>
-                Rexburg City Courthouse
-            </h1>
-            <img data-src="cityHall" alt="Courthouse" width="400" height="auto">
-        </main>
-        <script src="js/lazy.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images Activity</title>
+    <meta name="description" content="Lazy load activity">
+    <link href="css/lazy.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="heading">Progressive Loading Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_one.jpg" alt="Image One">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="lesson7/images/image_two.jpg" alt="Image Two">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_three.jpg" alt="Image Three">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_four.jpg" alt="Image Four">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_five.jpg" alt="Image Five">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_six.jpg" alt="Image Six">
+        </picture>
+    </main>
+    <footer>
+        <div class="down-footer">
+          <b><p id="copyright">&copy;<span id="year"></span> lazy Loading Images</b></p>
+          <p id="name"><b>Mariah Wedel</b></p>
+          <p id="class-name"><b>Lazy Loading Activity</b></p>
+          <p id="update"><b>Last Updated: <span id="lastupdate"></span></p></b>
+        </div>
+          </footer>
+          <script src="js/lazy.js"></script>
+          <script src="../chamber/js/main.js"></script>
+</body>
 </html>
