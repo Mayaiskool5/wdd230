@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em) {
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: repeat(auto-fit, minmax(6em, 1fr));
+    margin: 0 auto;
+    margin-left: -50px;
+  }
+
+  nav ul li {
+      padding: 5px;
+  }
+
+}
