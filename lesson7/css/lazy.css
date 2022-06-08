@@ -6,6 +6,7 @@ h1 {
   background-color: #D9DBF1;
   padding: 5px;
   width: 550px;
+  margin: 5px auto;
 }
 
 body {
@@ -41,10 +42,10 @@ main {
 }
 
 img[data-src] {
-    filter: blur( 0em ) ;
+    filter: blur( 0.5em ) ;
   }
 
 img {
-    filter: blur( 0.2em ) ;
-    transition: filter 1s ;
+    filter: blur( 0em ) ;
+    transition: filter 5s ;
   }

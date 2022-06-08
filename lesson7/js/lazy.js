@@ -1,17 +1,17 @@
-const images = document.querySelectorAll(["data-src"]);
-
+const images = document.querySelectorAll(["img[data-src]"]);
+console.log(images);
 function preloadImage(img) {
-    const src = img.getAttribute("data-src");
-    if(!src) {
+    //*const src = img.getAttribute("data-src");
+    img.setAttribute("src", img.getAttribute("data-src"));
+    if(!img.src) {
         return;
     }
-
-    img.src = src;
+img.removeAttribute("data-src");
 }
 
 const imgOptions = {
     threshold: 0,
-    rootMargin: "0px 0px 50px 0px"
+    rootMargin: "0px 0px 30px 0px"
 
 };
 
