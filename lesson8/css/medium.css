@@ -2,6 +2,7 @@
     h1 {
         font-size: 2.5rem;
     }
+
     table {
         border-collapse: collapse;
         border: 1px solid #acbabc;
@@ -10,14 +11,9 @@
         margin: auto;
         max-width: 275px;
         height: 300px;
-        box-shadow: 10px 10px 20px #628ca6;
+        box-shadow: 10px 10px 20px #48708a;
     }
-    #currentGoal {
-        background-color: #628ca6;
-    }
-    #header {
-        color: black;
-    }
+
     tfoot {
         font-size: 0.8em;
         padding: 0.5em;
