@@ -60,10 +60,6 @@ tbody {
     font-style: italic;
 }
 
-tr:nth-child(even) {
-    background-color: green;
-}
-
 #header,
 #footer {
     background-color: #52bdb7;
