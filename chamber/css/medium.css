@@ -248,4 +248,47 @@
     #name, #class-name, #copyright {
         border-right: 2px solid #FFF ;
     }
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    #join-main {
+        margin: 5px;
+        border: 1px solid #bbb;
+        padding: 0.5rem;
+        width: 450px;
+        background-color: #abe;
+    }
+    
+    #join-box {
+        display: grid;
+        grid-gap: 0.25rem;
+        grid-template-columns: 1fr 1fr;
+        width: 400px;
+        align-items: center;
+    }
+    
+    #join-greeting {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    label,
+    input,
+    textarea,
+    select,
+    button {
+        padding: 0.35rem;
+        font-size: 1.1rem;
+    }
+    
+    label {
+        text-align: right;
+    }
+    
+    button {
+        grid-column: 1/3;
+    }
+    
 }
