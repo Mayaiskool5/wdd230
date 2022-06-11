@@ -135,9 +135,15 @@ main {
 }
 
 form {
-  text-align: right;
+  text-align: left;
   padding-bottom: 5px;
   margin-top: 20px;
+}
+
+#search {
+	text-align: right;
+  	padding-bottom: 5px;
+  	margin-top: 20px;
 }
 
 .current-date {
@@ -347,7 +353,6 @@ hr {
 	margin: .2em ;
 }
 
-
 * {
 	box-sizing: border-box;
 }
@@ -361,10 +366,7 @@ hr {
 }
 
 #join-box {
-	display: grid;
-	grid-gap: 0.25rem;
-	grid-template-columns: 1fr 1fr;
-	width: 400px;
+	width: 100%;
 	align-items: center;
 }
 
@@ -380,12 +382,46 @@ select,
 button {
 	padding: 0.35rem;
 	font-size: 1.1rem;
+	width: 100%;
 }
 
-label {
+.weather label {
 	text-align: right;
 }
 
 button {
 	grid-column: 1/3;
 }
+
+form fieldset {
+	margin: 2rem 0;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: .5rem 2%;
+}
+
+form legend {
+	color: black;
+	margin: 0 1rem;
+	padding: 0 .5rem;
+}
+
+form label {
+	display: block;
+	padding-top: 1rem;
+	color: black;
+	font-size: .8rem;
+}
+
+form label input {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: rgb(0, 0, 0);
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+}
+
+

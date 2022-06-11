@@ -26,13 +26,13 @@
         <nav>
           <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-                <li class="active"><a href="index.html"><b>Home</b></a></li>
+                <li><a href="index.html"><b>Home</b></a></li>
                 <li><a href="discover.html"><b>Discover</b></a></li>
                 <li><a href=".html"><b>Directory</b></a></li>
-                <li><a href="join.html"><b>Join/Contact</b></a></li>
+                <li class="active"><a href="join.html"><b>Join/Contact</b></a></li>
             </ul>
     
-           <form>
+           <form id="search">
              <input type="search" name="q" placeholder="Search">
              <input type="submit" value="Go!">
            </form>
@@ -66,20 +66,29 @@
         <main id="join-main">
             <h1 id="join-greeting">📧 Join Today!</h1>
             <form id="join-box" action="" method="get">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" />
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" required />
-                <label for="btitle">Business title:</label>
-                <input type="text" id="btitle" name="btitle" required />
-                <label for="email">Email address:</label>
-                <input type="text" id="email" name="email" required />
-                <label for="phone">Phone number:</label>
-                <input type="phone" id="phone" name="phone" />
-                <label for="memlev">Membership level:</label>
-                <input type="text" id="memlev" name="memlev" />
-                <label for="busdes">Business description:</label>
-                <textarea id="busdes" name="busdes" required></textarea>
+              <fieldset>
+                <legend>Personal:</legend>
+                <label for="fname">First name:
+                  <input type="text" id="fname" name="fname" /></label>
+                <label for="lname">Last name:
+                  <input type="text" id="lname" name="lname" required /></label>
+                <label for="email">Email address:
+                  <input type="text" id="email" name="email" required /></label>
+                <label for="phone">Phone number:
+                  <input type="phone" id="phone" name="phone" /></label>
+              </fieldset>
+              <fieldset>
+                <legend>Business:</legend>
+                <label for="btitle">Business title:
+                  <input type="text" id="btitle" name="btitle" required /></label>
+                <label for="busdes">Business description:
+                  <textarea id="busdes" name="busdes" required></textarea></label>
+              </fieldset>
+              <fieldset>
+                <legend>Membership:</legend>
+                <label for="memlev">Membership level:
+                  <input type="text" id="memlev" name="memlev" /></label>
+              </fieldset>
                 <button id="btnSubmit" type="submit">Submit Information</button>
             </form>
         </main>
