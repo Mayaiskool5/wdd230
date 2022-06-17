@@ -14,7 +14,7 @@
     .social {
         position: absolute;
         right: 30px;
-        top: 127px;
+        top: 10px;
     }
 
     .current-date {
@@ -63,8 +63,8 @@
 
     #main {
         display: grid ;
-        grid-template-columns: repeat( 3, 1fr) ;
-        grid-template-rows: repeat( 5, 1fr ) ;
+        grid-template-columns: repeat( 3, auto) ;
+        grid-template-rows: repeat( 5, auto ) ;
     }
 
     #event-rex {
@@ -119,7 +119,7 @@
 
     .hero-header {
         font-size: 1.5rem;
-        position:absolute;
+        position: absolute;
     }
 
     .news-release {

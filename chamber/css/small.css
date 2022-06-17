@@ -65,7 +65,7 @@ header {
 .social {
 	position: absolute;
 	right: 30px;
-	top: 115px;
+	top: 10px;
 }
 
 .socialmedia {
@@ -132,6 +132,12 @@ nav ul li a:hover {
 main {
   background-color: white;
   padding: 5px;
+}
+
+#main {
+	display: grid ;
+	grid-template-columns: repeat( 1, auto) ;
+	grid-template-rows: repeat( 5, auto ) ;
 }
 
 form {
@@ -375,14 +381,13 @@ hr {
 	text-align: center;
 }
 
-label,
-input,
-textarea,
-select,
-button {
+#join-main label,
+#join-main input,
+#join-main textarea,
+#join-main select,
+#join-main button {
 	padding: 0.35rem;
 	font-size: 1.1rem;
-	width: 100%;
 }
 
 .weather label {
