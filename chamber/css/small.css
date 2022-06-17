@@ -429,4 +429,95 @@ form label input {
 	background-color: rgba(0,0,0,0.1);
 }
 
+/* directory page */
 
+.directory-main {
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #eee;
+	font-family: "Caveat", cursive;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+}
+
+.directory-grid article,
+#business-info section {
+	margin: 0.75rem;
+}
+
+#business-info section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+}
+
+.directory-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.list-view {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-view section {
+	display: flex;
+	align-items: center;
+}
+
+.directory-grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.directory-grid section > * {
+	margin: 0.1rem;
+}
+
+.list-view section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list-view section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list-view section img {
+	display: none; /* smaller viewports only */
+}
+
+#business-info section h3 {
+	font-size: 1.5rem;
+}
+
+#business-info section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+img {
+	height: 75px;
+	max-width: 100%;
+}
+
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
