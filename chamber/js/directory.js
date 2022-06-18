@@ -16,3 +16,39 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+fetch("./json/data.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject){
+        console.log(jsonObject);
+
+        const businesses = jsonObject['businesses'];
+
+        for (business of businesses) {
+            const section = document.createElement("section");
+            section.id = "business-info";
+            const img = document.createElement("img");
+            img.setAttribute("src", business.image);
+            //img.setAttribute("alt", business.img-alt);//
+
+
+            const busName = document.createElement("p");
+            busName.textContent = business.name;
+            const p1 = document.createElement("p");
+            p1.textContent = business.address;
+            const p2 = document.createElement("p");
+            p2.textContent = business.phone;
+            const web = document.createElement("a");
+            web.href = business.website;
+
+            section.appendChild(img);
+            section.appendChild(busName);
+            section.appendChild(p1);
+            section.appendChild(p2);
+            section.appendChild(web);
+
+            document.querySelector(".directory-grid").appendChild(section);
+        }
+    });
