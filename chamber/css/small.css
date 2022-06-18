@@ -524,6 +524,12 @@ img {
 	text-align: center;
 }
 
+.wireframe h1 {
+	font-family: 'Charm', cursive;
+	color:rgb(51, 3, 87);
+	font-size: 2rem;
+}
+
 @media (min-width: 700px) {
 	.list section img {
 		display: block;
