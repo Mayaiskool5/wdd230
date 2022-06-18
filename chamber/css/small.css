@@ -520,6 +520,10 @@ img {
 	max-width: auto;
 }
 
+.wireframe {
+	text-align: center;
+}
+
 @media (min-width: 700px) {
 	.list section img {
 		display: block;
