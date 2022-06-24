@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Assignment portal for Mariah Wedel in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+        
+        <title>Weather API</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="./css/small.css" />
+        <link rel="stylesheet" href="./css/medium.css" />
+        <link rel="stylesheet" href="./css/large.css" />
+        <link rel="stylesheet" href="./images/logo.jpg">
+        <link rel="shortcut icon" href="../favicon.ico">
+
+    </head>
+
+    <header>
+        <div id="flex-header">
+          <img id="logo" src="../images/logo.jpg" alt="website-logo" width="150">
+            <div id="title">
+            <h1 class="town">Madison</h1>
+            <h1>Chamber of Commerce</h1>
+            </div>
+        </div>
+
+        <div class="current-date">
+            <b><span id="date"></span></b>
+        </div>
+
+        <b><section id="banner"></section></b>
+    </header>
+    <body>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+        <img src="" alt="" id="weather-icon" />
+        <figcaption></figcaption>
+        </figure>
+    </body>
+
+    <footer>
+        <div class="down-footer">
+          <b><p id="copyright">&copy;<span id="year"></span> Madison Chamber of Commerce</b></p>
+          <p id="name"><b>Mariah Wedel</b></p>
+          <p id="class-name"><b>WDD 230 Project</b></p>
+          <p id="update"><b>Last Updated: <span id="lastupdate"></span></p></b>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
+
+</html>
