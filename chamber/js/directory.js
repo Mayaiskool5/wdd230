@@ -4,6 +4,8 @@ const display = document.querySelector("article");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
+display.classList.add("grid");
+
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.add("grid");
@@ -29,6 +31,8 @@ fetch("./json/data.json")
         for (business of businesses) {
             const section = document.createElement("section");
             section.id = "business-info";
+            let imgContainer = document.createElement("div");
+            imgContainer.setAttribute("class", "imgContainer");
             const img = document.createElement("img");
             img.setAttribute("src", business.image);
             //img.setAttribute("alt", business.img-alt);//
@@ -43,7 +47,8 @@ fetch("./json/data.json")
             const web = document.createElement("a");
             web.href = business.website;
 
-            section.appendChild(img);
+            imgContainer.appendChild(img);
+            section.appendChild(imgContainer);
             section.appendChild(busName);
             section.appendChild(p1);
             section.appendChild(p2);

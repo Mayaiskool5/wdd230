@@ -9,7 +9,7 @@ h5,
 h6 {
   font-family: 'Charm', cursive;
   background-color: #D9DBF1;
-  padding: 0.5em;
+  padding: 0.4em;
 }
 
 h3 {
@@ -25,22 +25,18 @@ h3 {
     text-align: center;
 }
 
-.town {
-	margin-top: -5px;
-    margin-bottom: -10px;
-}
-
 h1 {
 	margin-top: -5px;
 	margin: auto;
-	margin-bottom: 25px;
+	font-size: 20px;
   }
 
 #logo {
     margin: auto;
     max-width: 100%;
     margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
+	align-self: center;
 }
 
 body {
@@ -48,6 +44,17 @@ body {
   font-family: 'Raleway', sans-serif;
   background-color: #F9F9ED;
   padding: 10px;
+}
+
+header img {
+	width: 100px ;
+	height: auto;
+}
+
+ #flex-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 header {
@@ -130,7 +137,7 @@ nav ul li a:hover {
 }
 
 main {
-  background-color: white;
+  background-color: #F9F9ED;
   padding: 5px;
 }
 
@@ -209,6 +216,7 @@ main div, article {
 	font-size: 1rem;
     text-align: center;
 	margin-top: -7px;
+	margin-bottom: 25px;
 }
 
 #event-info {
@@ -245,7 +253,7 @@ main div, article {
 #weather-pic {
 	height: 120px;
 	float:left;
-	margin-top: -20px;
+	margin-top: -8px;
 }
 
 .join {
@@ -296,7 +304,7 @@ main div, article {
 	height: auto;
 	margin-left: -70px;
 	margin-bottom: 5px;
-	margin-top: 50px;
+	margin-top: 75px;
 }
 
 #spot-one-info {
@@ -325,7 +333,7 @@ main div, article {
 	height: auto;
 	margin-left: -130px;
 	margin-bottom: 5px;
-	margin-top: 30px;
+	margin-top: 55px;
 }
 
 footer {
@@ -463,29 +471,19 @@ form label input {
 	background-color: #ccc;
 }
 
-.directory-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-}
-
 .list-view {
 	display: flex;
 	flex-direction: column;
 }
 
-.list-view section {
+.list section {
 	display: flex;
 	align-items: center;
 }
 
-.directory-grid section {
+.list {
+	display: flex;
 	flex-direction: column;
-	text-align: center;
-}
-
-.directory-grid section > * {
-	margin: 0.1rem;
 }
 
 .list-view section {
@@ -511,13 +509,29 @@ form label input {
 	font-size: 0.9rem;
 }
 
-#business-info p {
+.grid #business-info p {
 	font-size: 0.7rem;
 }
 
+.list #business-info p {
+	font-size: 0.75rem;
+	padding: 0 2px;
+}
+
 img {
-	height: 100px;
+	height: 100%;
 	max-width: auto;
+	width: 100%;
+}
+
+.imgContainer {
+	width: 150px;
+	margin: auto;
+	border: none;
+}
+
+.list .imgContainer {
+	margin: 0;
 }
 
 .wireframe {
@@ -528,6 +542,13 @@ img {
 	font-family: 'Charm', cursive;
 	color:rgb(51, 3, 87);
 	font-size: 2rem;
+}
+
+.grid {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+	text-align: center;
 }
 
 @media (min-width: 700px) {
