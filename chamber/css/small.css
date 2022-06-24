@@ -351,6 +351,13 @@ footer {
 	margin: .3em ;
 }
 
+.down-footer-api {
+	font-size: 1.4em ;
+	margin: .3em ;
+	display: grid;
+	grid-template-columns: none;
+}
+
 #update {
 	grid-column: 5/7 ;
     grid-row: 1/3 ;
