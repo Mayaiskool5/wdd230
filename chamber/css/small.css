@@ -551,6 +551,11 @@ img {
 	font-size: 2rem;
 }
 
+#weather-icon {
+	height: 100px;
+	width: auto;
+}
+
 .grid {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
