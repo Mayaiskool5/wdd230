@@ -294,5 +294,9 @@
     button {
         grid-column: 1/3;
     }
-    
+
+    .discoverImgs:hover {
+        opacity: 0.6;
+    }
+
 }
