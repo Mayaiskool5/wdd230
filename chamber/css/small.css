@@ -531,6 +531,11 @@ img {
 	width: 100%;
 }
 
+.discoverImgs {
+	width: 40%;
+	margin: auto;
+}
+
 .imgContainer {
 	width: 150px;
 	margin: auto;
