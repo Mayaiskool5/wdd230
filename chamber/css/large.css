@@ -92,8 +92,6 @@
     #wind {
         display: flex;
         flex-direction: column;
-        text-align: left;
-        padding-left: 10px;
     }
 
     #button {
@@ -103,8 +101,9 @@
 
     #weather-pic {
         height: 100px;
+        width: auto;
         float:left;
-        margin-top: -18px;
+        margin-top: -10px;
     }
 
     .join {

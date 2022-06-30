@@ -561,6 +561,10 @@ img {
 	width: auto;
 }
 
+#rex-info {
+	text-align: center;
+}
+
 .grid {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
