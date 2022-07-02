@@ -59,9 +59,8 @@ header img {
 
 header {
   align-items: left;
-  display: grid;
+  display: flex;
   margin-top: 10px;
-  display: flex ;
   flex-direction: column ;
   color: #FFF ;
   background-color: #6E75A8 ;
