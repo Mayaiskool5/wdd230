@@ -65,51 +65,72 @@
 
         <main id="join-main">
             <h1 id="join-greeting">📧 Join Today!</h1>
-            <form id="join-box" action="" method="get">
+            <div id="join-layout">
+            <form id="join-box" action="thank-you.html" method="get">
               <fieldset>
                 <legend>Personal:</legend>
-                <label for="fname">First name:
-                  <input type="text" id="fname" name="fname" /></label>
-                <label for="lname">Last name:
+                <label for="fname">**First name:
+                  <input type="text" id="fname" name="fname" required/></label>
+                <label for="lname">**Last name:
                   <input type="text" id="lname" name="lname" required /></label>
-                <label for="email">Email address:
-                  <input type="text" id="email" name="email" required /></label>
-                <label for="phone">Phone number:
-                  <input type="phone" id="phone" name="phone" /></label>
+                <label for="email">**Email address:
+                  <input type="text" id="email" name="email" placeholder="example@email.com" required /></label>
+                <label for="phone">**Phone number:
+                  <input type="phone" id="phone" name="phone" required/></label>
               </fieldset>
               <fieldset>
                 <legend>Business:</legend>
                 <label for="btitle">Business title:
-                  <input type="text" id="btitle" name="btitle" required /></label>
+                  <input type="text" id="btitle" name="btitle" pattern="[A-Za-z\-\s]{7,}" /></label>
+                  <label for="bname">**Business name:
+                    <input type="text" id="bname" name="bname" required /></label>
                 <label for="busdes">Business description:
-                  <textarea id="busdes" name="busdes" required></textarea></label>
+                  <textarea id="busdes" name="busdes"></textarea></label>
               </fieldset>
-              <fieldset>
-                <legend>Membership:</legend>
-                <label for="memlev">Membership level:
-                  <input type="text" id="memlev" name="memlev" /></label>
-              </fieldset>
-                <button id="btnSubmit" type="submit">Submit Information</button>
-
-                <div>
+                <div id="memLev">
+                  <div>
                   <input type="radio" name="nonProfit" value="Non Profit">
-                  <label for="Non Profit">Non Profit</label>
-    
+                  <label class="label" for="Non Profit">Non Profit</label>
+                  </div>
+                  <div>
                   <input type="radio" name="bronze" value="Bronze">
-                  <label for="Bronze">Bronze</label>
-    
+                  <label class="label" for="Bronze">Bronze</label>
+                  </div>
+                  <div>
                   <input type="radio" name="bronze" value="Bronze">
-                  <label for="Bronze">Silver</label>
-    
+                  <label class="label" for="Bronze">Silver</label>
+                  </div>
+                  <div>
                   <input type="radio" name="bronze" value="Bronze">
-                  <label for="Bronze">Gold</label>
+                  <label class="label" for="Bronze">Gold</label>
+                  </div>
                 </div>
+                <button id="btnSubmit" type="submit">Submit Information</button>
+                <input id="hiddenField" type="hidden">
             </form>
             <div class="memInfo">
-            <p>membership info.</p>
-            <p></p>
-            <p></p>
-            <p></p>
+              <p><u>Non-Profit</u><br>
+                Cost: <b>Free</b><br>
+              </p>
+              <p><u>Bronze</u><br>
+                Cost: <b>$20</b><br>
+                Benefits:<br>
+                ~Attend monthly meetings<br>
+              </p>
+              <p><u>Silver</u><br>
+                Cost: <b>$40</b><br>
+                Benefits:<br> 
+                ~Attend monthly meetings<br>
+                ~Provides trainings<br>
+              </p>
+              <p><u>Gold</u><br>
+                Cost: <b>$60</b><br>
+                Benefits:<br> 
+                ~Attend monthly meetings<br>
+                ~Provides trainings<br>
+                ~Receive monthly updates
+              </p>
+            </div>
             </div>
         </main>
 

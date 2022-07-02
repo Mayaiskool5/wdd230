@@ -396,6 +396,14 @@ hr {
 	text-align: center;
 }
 
+.label {
+	display: inline;
+}
+
+#memLev div {
+	border: none;
+}
+
 #join-main label,
 #join-main input,
 #join-main textarea,
