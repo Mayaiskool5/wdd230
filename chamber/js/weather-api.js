@@ -6,7 +6,7 @@ const url = `https://api.openweathermap.org/data/2.5/weather?id=5605242&appid=69
 
 apiFetch(url);
 
-async function apiFeth(apiURL) {
+async function apiFetch(apiURL) {
     try {
         const response = await fetch(apiURL);
         if (response.ok) {

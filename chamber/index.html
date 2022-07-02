@@ -95,19 +95,18 @@
 
             <div class="weather">
               <h1 id="weather">Weather</h1>
-              <p id="weather-info">
+              <div id="weather-info">
                 <img id="weather-pic"
                 src="../images/weather.jpg"
                 alt="Weather"/>
-                <form id="wind">
-                <label for="temp">Average Temperature:
-                </label><br>
-                <label for="windSpeed">Wind Speed:
-                </label><br>
-                <input id="button" type="button" value="Submit"></input>
-                </form><br>
-                Wind Chill: <span id="windChill"></span>&deg;
-              </p>
+                <p id="wind">
+                  <p>Average Temperature: <span id="averageTemp">40</span>&deg;</p>
+                  <p>Wind Speed: <span id="windSpeed">10</span>mph</p>
+                </p>
+                <p>
+                  Wind Chill: <span id="windChill"></span>&deg;
+                </p>
+              </div>
             </div>
 
             <div class="join">
