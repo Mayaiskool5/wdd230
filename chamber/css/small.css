@@ -591,6 +591,24 @@ img {
 	padding: 50px;
 }
 
+.contact-info {
+	text-align: center;
+}
+
+#contact-header {
+	font-size: 35px;
+}
+
+#chamber-heading {
+	font-size: 40px;
+}
+
+#contact-information {
+	font-size: 20px;
+	border: none;
+	text-align: center;
+}
+
 .grid {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
