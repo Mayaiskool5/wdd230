@@ -1,3 +1,36 @@
+const url = `https://api.openweathermap.org/data/2.5/weather?id=5605242&appid=0283d42c0ba5dee3bb83782239eb55e0&units=imperial`
+
+apiFetch(url);
+
+async function apiFetch(apiURL) {
+    try {
+        const response = await fetch(apiURL);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data)
+            loadWeatherValues(data);
+        } else {
+            throw Error(await response.text());
+        }
+  
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function loadWeatherValues(data) {
+    var temp = document.getElementById("temp");
+    var wSpeed = document.getElementById("windSpeed");
+    var condition = document.getElementById("conditions");
+    var iconPic = document.getElementById("weather-pic");
+    iconPic.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    temp.textContent = data.main.temp.toFixed(0);
+    wSpeed.textContent = data.wind.speed.toFixed(0);
+    condition.textContent = data.weather[0].description;
+
+    calculateWindChill();
+}
+
 function calculateWindChill() {
     var temp = document.getElementById("temp").value;
     var wSpeed = document.getElementById("windSpeed").value;
