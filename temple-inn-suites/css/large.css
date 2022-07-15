@@ -1,0 +1,32 @@
+@media only screen and (min-width: 60em) {
+
+    .header-container {
+        font-size: 1em ;
+    }
+
+    nav ul {
+        align-items: center;
+        font-size: 1.2rem ;
+        padding: .5rem 1rem;
+        font-family: 'Raleway', sans-serif;
+	    list-style: none ;
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+	    margin: 30px;
+    }
+
+    nav button {
+        display: none ;
+    }
+
+    footer {
+        font-size: .7em ;
+    }
+
+    .down-footer {
+        font-size: .9rem ;
+        display: grid ;
+        grid-template-columns: repeat( 6, .7fr ) ;
+        padding: 0 ;
+    }
+}

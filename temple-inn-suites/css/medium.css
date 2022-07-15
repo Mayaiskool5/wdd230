@@ -1,0 +1,51 @@
+@media only screen and (min-width: 37.5em) {
+
+    .social {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+
+    nav ul.open {
+        font-size: 1.4em ;
+        margin: 0 ;
+    }
+
+    footer {
+        font-size: .6em ;
+        display: grid ;
+        grid-template-columns: repeat( 3, 1fr ) ;
+    }
+
+    .down-footer {
+        grid-column: 1/4 ;
+        grid-row: 2/3 ;
+        display: grid ;
+        grid-template-columns: repeat( 5, .6fr ) ;
+    }
+
+    hr {
+        grid-column: 1/6 ;
+    }
+
+    #copyright {
+        grid-column: 1/3 ;
+    }
+
+    
+    /* class is . id is # */
+}
