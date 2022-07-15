@@ -60,12 +60,32 @@
       </header>
 
       <main>
+        <div class="weather">
+            <h1 id="weather">Weather</h1>
+            <div id="weather-info">
+              <img id="weather-pic"
+              src="../images/weather.jpg"
+              alt="Weather"/>
+              <div id="weatherText">
+                <p id="wind">
+                  <b><p><span id="temp"></span>&deg;F</p>
+                  <p><span id="conditions"></span></p>
+                  <hr>
+                  <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+                </p>
+                <p>
+                  Wind Chill: <span id="windChill"></span>&deg;
+                </p>
+                </b>
+              </div>
+            </div>
+          </div>
 
       </main>
 
       <footer>
         <div class="down-footer">
-          <b><p id="copyright">&copy;<span id="year"></span> Madison Chamber of Commerce</b></p>
+          <b><p id="copyright">&copy;<span id="year"></span> Temple Inn & Suites</b></p>
           <p id="name"><b>Mariah Wedel</b></p>
           <p id="class-name"><b>WDD 230 Project</b></p>
           <p id="update"><b>Last Updated: <span id="lastupdate"></span></p></b>
@@ -73,5 +93,6 @@
       </footer>
       <script src="js/main.js"></script>
       <script src="js/hamburger.js"></script>
+      <script src="js/weather-api.js"></script>
     </body>
 </html>

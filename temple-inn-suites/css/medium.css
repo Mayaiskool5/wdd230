@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Edu+SA+Beginner&family=Lobster+Two&display=swap');
+
 @media only screen and (min-width: 37.5em) {
 
     .social {
@@ -10,9 +12,18 @@
         display: none;
     }
 
+    nav {
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
+    nav ul {
+        font-size: 1rem;
+    }
+
     nav ul#primaryNav {
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
 
     nav ul li a {

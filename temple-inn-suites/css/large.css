@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Edu+SA+Beginner&family=Lobster+Two&display=swap');
+
 @media only screen and (min-width: 60em) {
 
     .header-container {
         font-size: 1em ;
     }
 
+    nav {
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
     nav ul {
         align-items: center;
-        font-size: 1.2rem ;
+        font-size: 1.3rem ;
         padding: .5rem 1rem;
-        font-family: 'Raleway', sans-serif;
 	    list-style: none ;
 	    display: grid;
 	    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
