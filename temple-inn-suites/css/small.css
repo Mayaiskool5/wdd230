@@ -103,6 +103,15 @@ nav ul li a:hover {
 	display: block;
 }
 
+.current-date {
+	display: flex ;
+	flex-direction: row ;
+	font-size: 1em ;
+	padding: .4em ;
+	margin: .8em ;
+	justify-content: center;
+}
+
 main {
   background-color: #C6DEC6;
   padding: 10px;
@@ -246,6 +255,84 @@ body {
 
 .paragraph-1 {
   text-align: center;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+}
+
+#res-main {
+	margin: 5px;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	width: 450px;
+}
+
+#res-box {
+	width: 100%;
+	align-items: center;
+}
+
+#res-greeting {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.label {
+	display: inline;
+}
+
+#memLev div {
+	border: none;
+}
+
+#res-main label,
+#res-main input,
+#res-main textarea,
+#res-main select,
+#res-main button {
+	padding: 0.35rem;
+	font-size: 1.1rem;
+}
+
+.weather label {
+	text-align: right;
+}
+
+button {
+	grid-column: 1/3;
+}
+
+form fieldset {
+	margin: 2rem 0;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: .5rem 2%;
+}
+
+form legend {
+	color: black;
+	margin: 0 1rem;
+	padding: 0 .5rem;
+}
+
+form label {
+	display: block;
+	padding-top: 1rem;
+	color: black;
+	font-size: .8rem;
+}
+
+form label input {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: rgb(0, 0, 0);
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
 }
 
 .down-footer p {
