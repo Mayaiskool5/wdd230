@@ -263,7 +263,7 @@ body {
 }
 
 #res-main {
-	margin: 5px;
+	margin: auto;
 	border: 1px solid #bbb;
 	padding: 0.5rem;
 	width: 450px;
