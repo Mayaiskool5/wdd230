@@ -35,6 +35,10 @@ header {
     
   }
 
+#search {
+  text-align: right;
+}
+
 .social {
 	position: absolute;
 	right: 30px;
