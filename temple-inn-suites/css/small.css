@@ -122,6 +122,10 @@ nav ul li a:hover {
   margin-bottom: 8px;
 }
 
+.banner-img {
+  margin-top: -10px;
+}
+
 main {
   background-color: #C6DEC6;
   padding: 10px;
@@ -352,6 +356,10 @@ form label input {
 #special {
   margin-top: 5px;
   width: 100%;
+}
+
+#btnSubmit {
+  margin-left: 30%;
 }
 
 .down-footer p {
