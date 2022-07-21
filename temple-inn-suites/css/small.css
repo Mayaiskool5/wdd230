@@ -16,6 +16,13 @@ body {
   font-family: 'Edu SA Beginner', cursive;  
 }
 
+.hotel-name {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0px;
+  margin-bottom: -10px;
+}
+
 #flex-header {
 	display: flex;
 	flex-direction: column;
